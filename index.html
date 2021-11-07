@@ -7,7 +7,7 @@
     </head>
     <body>
         <div ng-controller="LunchCheckController" style="width:800px; margin:0 auto;">
-            <input type="text" ng-required="req" ng-model="items" placeholder="Enter the items">
+            <input type="text" ng-required="req" ng-model="items" placeholder="Enter the items seperated by comma">
             <button ng-click="check()" >Check If Too Much </button>
             {{msg}}
         </div>
